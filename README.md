@@ -64,7 +64,7 @@ new_Scaled = scaler.fit_transform(new_data)
 prediction = np.dot(np.append(1, new_Scaled), theta)
 prediction = prediction.reshape(-1,1)
 pre = scaler.inverse_transform(prediction)
-print(f"Predicted value: (pre)")
+print(f"Predicted value: {pre}")
 ```
 
 ## Output:
@@ -76,7 +76,8 @@ print(f"Predicted value: (pre)")
 ![image](https://github.com/user-attachments/assets/59fa1388-0d37-4c5e-a5e4-2f5d10d109d3)
 
 ## Predicted Value
-![image](https://github.com/user-attachments/assets/7ef530d8-587b-4eb7-8371-27a9621cb5a7)
+![WhatsApp Image 2025-03-06 at 22 26 18_cdc4d16f](https://github.com/user-attachments/assets/cae581b9-e43a-47c9-b4c5-cf5f844c225a)
+
 
 
 ## Result:
